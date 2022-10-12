@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Overpass', sans-serif;
+    }
+
+body {
+    background-color: #131518   ;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card-body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 200ms ease-in;
+    height: fit-content;
+    background-color: white;
+    width: 36rem;
+    border-radius:15px ;
+    background-color: #252d37;
+    color: white;
+}
+
+.card-image {
+    width:25px;
+    height: 25px;
+    margin-left:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #3a4655;
+}
+
+.title {
+    font-size: 27px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    color:#7C8798;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+    
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #3a4655;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: #7C8798;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+
+}
+
+.button:hover {
+    background-color: #FC7614;
+    color: white;
+    
+}
+
+.button:focus {
+    background-color: grey;
+    color: white;
+}
+
+.c-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: center;
+    width: 79%;
+    background-color: #FC7614;
+    color: 7C8798;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: white;
+    color: #FC7614;
+
+}
+
+
+
+.card2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+
+.cardbody2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 200ms ease-in;
+    height: fit-content;
+    background-color: white;
+    width: 36rem;
+    border-radius:15px ;
+    background-color: #252d37;
+    color: white;
+}
+
+.card-image2 {
+    width:14rem;
+    height: 9rem;
+    padding: 50px;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding: 15px;
+    background-color: #3a4655;
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    color: #FC7614;
+    font-size: 18px;
+}
+
+.thankYou {
+    margin: 20px;
+    font-size: 35px;
+}
+
+.description2 {
+    font-size: 1.4rem;
+    color:#7C8798;
+    margin-bottom: 50px;
+    text-align: center;
+}
